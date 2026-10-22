@@ -21,7 +21,7 @@ Em um Codespace do GitHub, execute os seguintes comandos:
 10. `uv run make`
 11. `uv run make html`
 12. `uv run sphinx-autobuild docs build/html`
-13. # => Clique na URL que é exibida, como <http://127.0.0.1:8000>.
+13. Clique na URL que é exibida, como <http://127.0.0.1:8000>
 
 ## Execução, teste e personalização
 
