@@ -28,7 +28,7 @@ Em um Codespace do GitHub, execute os seguintes comandos:
 1. Abra outro terminal e execute: `code ./docs/conf.py`
 2. Altere a variável `html_theme` para `"furo"`, `"sphinx_book_theme"` ou `"sphinx_rtd_theme"`[^1]
 3. Crie 3 arquivos de exemplo: `touch  docs/{pedra,papel,tesoura}.md`
-4. No arquivo `docs/conf.py`, adicione a extensão `myst_parser`[^2]
+4. No arquivo `docs/conf.py`, adicione a extensão `"myst_parser"`[^2]
 5. Adicione título `# Pedra`, `# Papel` e `# Tesoura` aos arquivos `docs/{pedra,papel,tesoura}.md`
 6. Edite o arquivo `index.rst`. Dentro da diretiva `toctree` , adicione referência aos arquivos `pedra.md`, `papel.md` e `tesoura.md`. A extensão `.md` é opcional. Exemplo:
 
@@ -79,3 +79,5 @@ Exemplo de arquivo incluso com numeração de linha:
 ```
 ````
 
+[^1]: Lembre-se das aspas duplas.
+[^2]: Observe que, para o comando `uv add`, os pacotes podem ter menos(`-`) no nome. Já no arquivo de configuração `./docs/conf.py`, os pacotes serão referenciados pelo nome, com o menos(`-`) substituído por *underline* (`_`).
