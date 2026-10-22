@@ -30,7 +30,7 @@ Em um Codespace do GitHub, execute os seguintes comandos:
 3. Crie 3 arquivos de exemplo: `touch  docs/{pedra,papel,tesoura}.md`
 4. No arquivo `docs/conf.py`, adicione a extensão `"myst_parser"`[^2]
 5. Adicione título `# Pedra`, `# Papel` e `# Tesoura` aos arquivos `docs/{pedra,papel,tesoura}.md`
-6. Edite o arquivo `index.rst`. Dentro da diretiva `toctree` , adicione referência aos arquivos `pedra.md`, `papel.md` e `tesoura.md`. A extensão `.md` é opcional. Exemplo:
+6. Edite o arquivo `docs/index.rst`. Dentro da diretiva `toctree` , adicione referência aos arquivos `pedra.md`, `papel.md` e `tesoura.md`. A extensão `.md` é opcional. Exemplo:
 
    ```text
     .. toctree::
