@@ -10,12 +10,18 @@ Em um Codespace do GitHub, execute os seguintes comandos:
 4. `uv add sphinx myst-parser sphinx-autobuild `
 5. `uv add furo sphinx_book_theme sphinx-rtd-theme`
 6. `uv run sphinx-quickstart`
-7. `mv source docs`
-8. `sed -i s/source/docs/  Makefile `
-9. `uv run make`
-10. `uv run make html`
-11. `uv run sphinx-autobuild docs build/html`
-12. # => Clique na URL que é exibida, como <http://127.0.0.1:8000>.
+   1. Separate source and build directories (y/n) [n]: `yes`
+   2. Project name: `doce-asa`
+   3. Author name(s): `{Nome} {Sobrenome}`
+   4. Project release []: `2026`
+   5. Project language [en]: `pt_BR`
+
+8. `mv source docs`
+9. `sed -i s/source/docs/  Makefile `
+10. `uv run make`
+11. `uv run make html`
+12. `uv run sphinx-autobuild docs build/html`
+13. # => Clique na URL que é exibida, como <http://127.0.0.1:8000>.
 
 ## Execução, teste e personalização
 
